@@ -12,3 +12,5 @@ class CashRegister {
         printer.print(purchase.asString());
     }
 }
+
+
