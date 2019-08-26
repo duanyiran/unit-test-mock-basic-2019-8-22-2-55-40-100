@@ -39,7 +39,7 @@ public class CashRegisterTest {
         //when
         cashRegister.process(subPurchase);
         //then
-        assertEquals("test product\t1.0\n",mockPrinter.getTempText());
+        assertEquals("test product\t1.0\n",mockPrinter.getPrinterText());
     }
 
     @Test
